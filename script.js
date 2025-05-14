@@ -7,7 +7,7 @@ function stringChop(str, size) {
 	}else{
 		arr.push(str.slice(0));
 	}
-	return arr.length > 0 ? arr : "";
+	return arr;
 }
 
 // Do not change the code below
