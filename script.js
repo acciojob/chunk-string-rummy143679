@@ -6,11 +6,11 @@ function stringChop(str, size) {
 	}else{
 		arr.push(str.slice(0));
 	}
-	return arr;
+	return arr.length > 0 ? arr : "";
 }
 
 // Do not change the code below
-const str = prompt("Enter String.");
-const size = prompt("Enter Chunk Size.");
+// const str = prompt("Enter String.");
+// const size = prompt("Enter Chunk Size.");
 let arr = [];
 alert(stringChop(str, size));
