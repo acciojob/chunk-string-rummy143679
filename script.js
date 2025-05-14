@@ -10,7 +10,7 @@ function stringChop(str, size) {
 }
 
 // Do not change the code below
-// const str = prompt("Enter String.");
-// const size = prompt("Enter Chunk Size.");
+const str = prompt("Enter String.");
+const size = prompt("Enter Chunk Size.");
 let arr = [];
 alert(stringChop(str, size));
