@@ -1,6 +1,6 @@
 function stringChop(str, size) {
   // your code here
-	const str = str == null ? "" : str;
+
 	if(str.length > size){
 		arr.push(str.slice(0,size));
 		return stringChop(str.slice(size), size);
